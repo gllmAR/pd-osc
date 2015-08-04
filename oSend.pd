@@ -1,4 +1,4 @@
-#N canvas 647 252 584 481 10;
+#N canvas 647 252 581 385 10;
 #X obj 37 67 list split 1;
 #X obj 86 143 list prepend set;
 #X obj 14 104 t b l;
@@ -11,7 +11,7 @@
 #X obj 275 18 inlet;
 #X obj 274 192 list prepend connect;
 #X obj 274 218 list trim;
-#X obj 512 177 inlet;
+#X obj 195 18 inlet;
 #X obj 15 142 list;
 #X obj 15 171 list trim;
 #X obj 273 298 netsend -u -b;
